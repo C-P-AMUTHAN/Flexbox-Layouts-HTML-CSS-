@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: gainsboro;
+    gap: 5px;
+    padding: 5px;
+}
+.container .c1{
+    display: flex;
+    height: 66.6vh;
+    width: 100%;
+    gap: 5px;
+}
+.container .c1 .p1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    gap: 5px;
+}
+.container .c1 .p1 .p1c1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    background-color:darkseagreen;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container .c1 .p1 .p1c2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    background-color:darkgoldenrod;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container .c1 .p2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    background-color:darkturquoise;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container .c1 .p3{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    gap: 5px;
+}
+.container .c1 .p3 .p3c1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    background-color:blue;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container .c1 .p3 .p3c2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    background-color:blueviolet;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container .c1 .p4{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    gap: 5px;
+}
+.container .c1 .p4 .p4c1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    background-color:brown;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container .c1 .p4 .p4c2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    background-color:burlywood;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container .c2{
+    display: flex;
+    height: 33.3vh;
+    width: 100%;
+    gap: 5px;
+}
+.container .c2 .g1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+    background-color:cadetblue;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container .c2 .g2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+    background-color:chartreuse;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container .c2 .g3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+    background-color:cornflowerblue;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container .c2 .g4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+    background-color:crimson;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container .c2 .g5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+    background-color:darkcyan;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+@media screen and (max-width:630px) {
+    .container .c1{
+        flex-direction: column;
+        width: 100%;
+    }
+    .container .c1 .p1,.container .c1 .p2, .container .c1 .p3, .container .c1 .p4{
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+    }
+    .container .c1 .p1 .p1c1, .container .c1 .p1 .p1c2{
+        height: 100%;
+    }
+    .container .c1 .p3 .p3c1, .container .c1 .p3 .p3c2{
+        height: 100%;
+    }
+    .container .c1 .p4 .p4c1, .container .c1 .p4 .p4c2{
+        height: 100%;
+    }
+    .container .c2{
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+    }
+    .container .c2 .g1, .container .c2 .g2, .container .c2 .g3, .container .c2 .g4, .container .c2 .g5{
+        height: 100%;
+        width: 100%;
+    }
+}

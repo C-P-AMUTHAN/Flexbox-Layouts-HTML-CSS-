@@ -1,2 +1,20 @@
-# Flexbox-Layouts-HTML-CSS-
-This repository contains HTML and CSS snippets showcasing different Flexbox layout designs. Each snippet demonstrates how to use the CSS Flexbox layout module to create responsive and modern web layouts. These examples are useful for learning and implementing Flexbox in real-world projects.
+# Flexbox Layout Snippets in HTML & CSS
+
+This repository contains a collection of HTML and CSS snippets demonstrating various Flexbox layouts. Each layout is designed to showcase the power and flexibility of CSS Flexbox for creating responsive web designs.
+
+## Layouts Covered
+
+- **Basic Flexbox Layout**
+- **Responsive Navbar using Flexbox**
+- **Flexbox Grid Layout**
+- **Centered Content with Flexbox**
+- **Flexbox Sidebar Layout**
+- **Two-Column Layout with Flexbox**
+- **Responsive Image Gallery using Flexbox**
+
+## Getting Started
+
+To use these snippets:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/C-P-AMUTHAN/Flexbox-Layouts-HTML-CSS-.git

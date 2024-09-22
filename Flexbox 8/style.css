@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+.container .a1{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    gap: 10px;
+}
+.container .a1 .a1b1{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container .a1 .a1b1 .a1b1c1{
+    height: 30%;
+    width: 100%;
+    background-color: red;
+}
+.container .a1 .a1b1 .a1b1c2{
+    height: 70%;
+    width: 100%;
+    background-color: orangered;
+}
+.container .a1 .a1b2{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container .a1 .a1b2 .a1b2c1{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.container .a1 .a1b2 .a1b2c1 .a1b2c1-1{
+    height: 100%;
+    width: 80%;
+    background-color: cadetblue;
+}
+.container .a1 .a1b2 .a1b2c1 .a1b2c1-2{
+    height: 100%;
+    width: 20%;
+    background-color: green;
+}
+.container .a1 .a1b2 .a1b2c2{
+    height: 70%;
+    width: 100%;
+    background-color: orange;
+}
+.container .a2{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    gap: 10px;
+}
+.container .a2 .a2b1{
+    height: 100%;
+    width: 40%;
+    background-color: lightblue;
+}
+.container .a2 .a2b2{
+    height: 100%;
+    width: 50%;
+    background-color: cadetblue;
+}
+.container .a2 .a2b3{
+    height: 100%;
+    width: 10%;
+    background-color: lightblue;
+}

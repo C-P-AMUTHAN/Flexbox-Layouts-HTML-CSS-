@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: lightskyblue;
+    gap: 10px;
+    padding: 10px;
+}
+.p1{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color:darkmagenta;
+}
+.flag{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    gap: 10px;
+}
+.p2{
+    display: flex;
+    height: 33.33%;
+    width: 100%;
+    gap: 10px;
+}
+.p2 > div{
+    display: flex;
+    height: 100%;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.p2c1{
+    background-color: aqua;
+}
+.p2c2{
+    background-color: aquamarine;
+}
+.p2c3{
+    background-color: blue;
+}
+.p2c4{
+    background-color: blueviolet;
+}
+.p3{
+    display: flex;
+    height: 33.33%;
+    width: 100%;
+    gap: 10px;
+}
+.p3 > div{
+    display: flex;
+    height: 100%;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.p3c1{
+    background-color: brown;
+}
+.p3c2{
+    background-color: burlywood;
+}
+.p3c3{
+    background-color: cadetblue;
+}
+.p3c4{
+    background-color: chartreuse;
+}
+.p4{
+    display: flex;
+    height: 33.33%;
+    width: 100%;
+    gap: 10px;
+}
+.p4 > div{
+    display: flex;
+    height: 100%;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.p4c1{
+    background-color: chocolate;
+}
+.p4c2{
+    background-color:crimson;
+}
+.p4c3{
+    background-color: darkcyan;
+}
+.p4c4{
+    background-color:darkgreen;
+}
+@media screen and (max-width:1024px){
+    .container{
+        height: fit-content;
+        flex-direction: column;
+    }
+    .p1{
+        height: 40vh;
+        width: 100%;
+    }
+    .flag{
+        width: 100%;
+    }
+    .p2 > div, .p3 > div, .p4 > div{
+        height: 20vh;
+        width: 100%;
+    }
+}
+@media screen and (max-width:630px){
+    .container, .p2, .p3, .p4{
+        height: fit-content;
+        flex-direction: column;
+    }
+    .p1{
+        width: 100%;
+    }
+    .flag{
+        width: 100%;
+    }
+    .p2 > div, .p3 > div, .p4 > div{
+        height: 20vh;
+        width: 100%;
+    }
+}

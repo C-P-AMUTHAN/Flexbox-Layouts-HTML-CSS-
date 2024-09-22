@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90vw;
+}
+.p1c1{
+    display: flex;
+    height: 50%;
+    width: 90vw;
+}
+.p1c1g1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 60vw;
+    background-color: aqua;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+.p1c1g2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+.p1c1g2-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    background-color: blue;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+.p1c1g2-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    background-color: blueviolet;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+.p1c2{
+    display: flex;
+    height: 50%;
+    width: 90vw;
+}
+.p1c2g1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30vw;
+}
+.p1c2g1 .p1c2g1-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    background-color: burlywood;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+.p1c2g1 .p1c2g1-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    background-color:cadetblue;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.p1c2g2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60vw;
+}
+.p1c2g2 .p1c2g2-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    background-color: chartreuse;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+.p1c2g2 .p1c2g2-2{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+.p1c2g2 .p1c2g2-2 .p1c2g2-2s1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background-color:chocolate;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.p1c2g2 .p1c2g2-2 .p1c2g2-2s2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background-color:cornflowerblue;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.p2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 10vw;
+    background-color: brown;
+    border: 2px solid black;
+}
+@media screen and (max-width:630px) {
+    .container{
+        flex-direction: column;
+        height: 200vh;
+        width: 100%;
+    }
+    .container .p1c1, .container .p1c2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .p1, .p1c1g1, .p1c1g2, .p1c2g2, .p1c2g1, .p2{
+        width: 100%;
+    }
+}

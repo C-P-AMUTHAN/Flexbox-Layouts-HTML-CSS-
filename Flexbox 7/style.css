@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: #333;
+}
+.container{
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+.container .c1{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.container .c1 .c1p1{
+    height: 55%;
+    width: 100%;
+    background-color: red;
+}
+.container .c1 .c1p2{
+    height: 45%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.container .c2{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.container .c2 .c2p1{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.container .c2 .c2p1 .c2p1g1{
+    height: 100%;
+    width: 45%;
+    background-color: cadetblue;
+}
+.container .c2 .c2p1 .c2p1g2{
+    height: 100%;
+    width: 55%;
+    background-color: goldenrod;
+}
+.container .c2 .c2p2{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.container .c2 .c2p2 .c2p2g1{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container .c2 .c2p2 .c2p2g1 .s1{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.container .c2 .c2p2 .c2p2g1 .s1 .s1p1{
+    height: 100%;
+    width: 35%;
+    background-color: goldenrod;
+}
+.container .c2 .c2p2 .c2p2g1 .s1 .s1p2{
+    height: 100%;
+    width: 65%;
+    background-color: whitesmoke;
+}
+.container .c2 .c2p2 .c2p2g1 .s2{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.container .c2 .c2p2 .c2p2g1 .s2 .s2p1{
+    height: 100%;
+    width: 65%;
+    background-color: red;
+}
+.container .c2 .c2p2 .c2p2g1 .s2 .s2p2{
+    height: 100%;
+    width: 35%;
+    background-color: cadetblue;
+}
+.container .c2 .c2p2 .c2p2g2{
+    height: 100%;
+    width: 25%;
+    background-color: red;
+}  
